@@ -85,7 +85,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: "../public/images/barnochomsorg.png",
+    img: "/images/barnochomsorg.png",
     url: "https://barnochomsorg.se/bli-jourhem-familjehem/",
     github: "",
     title: "first project",
@@ -93,7 +93,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../src/assets/instaplatt.png",
+    img: "/images/instaplatt.png",
     url: "https://instaplatt.se/",
     github: "",
     title: "second project",
@@ -101,7 +101,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../src/assets/myportfolio.png",
+    img: "/images/myportfolio.png",
     url: "https://react-projects.netlify.app/",
     github: "https://github.com/r8now/portfolio",
     title: "third project",
