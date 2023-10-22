@@ -85,7 +85,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: "./src/assets/barnochomsorg.png",
+    img: "../public/images/barnochomsorg.png",
     url: "https://barnochomsorg.se/bli-jourhem-familjehem/",
     github: "",
     title: "first project",
