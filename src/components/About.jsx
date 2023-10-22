@@ -7,7 +7,7 @@ const About = () => {
       <div className="align-element grid md:grid-cols-2 items-center gap-16">
         <img src={aboutSvg} alt="aboutSvg" className="w-full h-64" />
         <article>
-          <SectionTitle text="code and coffe" />
+          <SectionTitle text="code and coffee" />
           <p className="text-slate-600 mt-8 leading-loose">
             Junior frontend developer with some backend knowledge. 34 years old,
             born and raised in Sweden. I spend my free time either working out
