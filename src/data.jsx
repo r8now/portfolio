@@ -12,10 +12,11 @@ import { SiCsharp, SiDotnet, SiMysql, SiTailwindcss } from "react-icons/si";
 
 
 export const links = [
-  { id: nanoid(), href: '#home', text: 'home' },
-  { id: nanoid(), href: '#skills', text: 'skills' },
-  { id: nanoid(), href: '#about', text: 'about' },
-  { id: nanoid(), href: '#projects', text: 'projects' },
+  { id: nanoid(), href: "#home", text: "home" },
+  { id: nanoid(), href: "#skills", text: "skills" },
+  { id: nanoid(), href: "#about", text: "about" },
+  { id: nanoid(), href: "#projects", text: "projects" },
+  { id: nanoid(), href: "#user_name", text: "Contact" },
 ];
 
 export const skills = [
