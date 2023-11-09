@@ -7,7 +7,7 @@ const ProjectsCard = ({url,img,github,title,text}) => {
       <img
         src={img}
         alt={title}
-        //make image fit the container and in center
+       
         className="w-full object-fit   rounded-t-lg h-64"
       />
       <div className="capitalize p-8">
