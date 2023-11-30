@@ -1,5 +1,7 @@
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
+import SectionTitle from "./SectionTitle";
+
 
 const ContactForm = () => {
   const form = useRef();
@@ -32,6 +34,10 @@ const ContactForm = () => {
 
   return (
     <div className="w-full  bg-sky-100  mx-auto p-4 border-solid  border-sky-500">
+      <div className="text-center">
+        <SectionTitle text="Contact me" />
+      </div>
+
       {isFormSubmitted ? (
         <p className="text-green-600 font-bold text-center">
           Thank you for your submission! The form will reset shortly.
