@@ -89,7 +89,7 @@ export const projects = [
     img: "/images/barnochomsorg.png",
     url: "https://barnochomsorg.se/bli-jourhem-familjehem/",
     github: "",
-    title: "first project",
+    title: "First project",
     text: "In this project i added custom css, fixed buggs and made the whole site responsive for mobiles. This page was built with wordpress and Elementor page builder",
   },
   {
@@ -97,7 +97,7 @@ export const projects = [
     img: "/images/instaplatt.png",
     url: "https://instaplatt.se/",
     github: "",
-    title: "second project",
+    title: "Second project",
     text: "I was the project manager 90% when building and finishing this site, my job was to check that the designer was using the correct standards and also creating this site to be SEO friendly and optimized.",
   },
   {
@@ -105,7 +105,7 @@ export const projects = [
     img: "/images/myportfolio.png",
     url: "https://react-projects.netlify.app/",
     github: "https://github.com/r8now/portfolio",
-    title: "third project",
+    title: "Third project",
     text: "This was built with Vite, Tailwind css and React",
   },
 ];
