@@ -108,4 +108,12 @@ export const projects = [
     title: "Third project",
     text: "This was built with Vite, Tailwind css and React",
   },
+  {
+    id: nanoid(),
+    img: "/images/bygget.png",
+    url: "https://brilliant-kringle-064f51.netlify.app/",
+   
+    title: "Fourth project",
+    text: "This was built with Vite, Tailwind css and React, i made a copy of a site and added pages to it and made it responsive for mobiles.",
+  },
 ];
