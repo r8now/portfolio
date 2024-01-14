@@ -124,4 +124,12 @@ export const projects = [
     title: "Fifth project",
     text: "This is built with Vite, Tailwind css and React, this is an ongoing project i am collaborating with a friend. A website to help people with loosing weight and getting in shape.",
   },
+  {
+    id: nanoid(),
+    img: "/images/cms.png",
+    url: "https://studenter.miun.se/~hosm2000/writeable/wordpress/",
+    github: "https://github.com/r8now/CMS_Project",
+    title: "CMS project",
+    text: "Build in 2022 focus on creating a custom template for wordpress from scratch and also creating a REST-API with PHP and MySQL, you are able to upload pages, posts and also images to the site.",
+  },
 ];
