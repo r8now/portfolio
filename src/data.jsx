@@ -116,4 +116,12 @@ export const projects = [
     title: "Fourth project",
     text: "This was built with Vite, Tailwind css and React, i made a copy of a site and added pages to it and made it responsive for mobiles.",
   },
+  {
+    id: nanoid(),
+    img: "/images/betterversion.png",
+    url: "https://betterversion.netlify.app/",
+    github: "#/private repo",
+    title: "Fifth project",
+    text: "This is built with Vite, Tailwind css and React, this is an ongoing project i am collaborating with a friend. A website to help people with loosing weight and getting in shape.",
+  },
 ];
