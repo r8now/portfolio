@@ -1,11 +1,12 @@
 
-import aboutSvg from "../assets/about.svg";
+import CoffeGif from "./CoffeGif";
+
 import SectionTitle from "./SectionTitle";
 const About = () => {
   return (
     <section className="bg-white py-20 " id="about">
       <div className="align-element grid md:grid-cols-2 items-center gap-16">
-        <img src={aboutSvg} alt="aboutSvg" className="w-full h-64" />
+          <CoffeGif className="w-full h-64 " />
         <article>
           <SectionTitle text="code &#x2328;  and coffee &#x2615;" />
           <p className="text-slate-600 mt-8 text-lg leading-loose">
