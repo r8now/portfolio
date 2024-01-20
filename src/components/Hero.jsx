@@ -15,10 +15,10 @@ const Hero = () => {
           <p>#OpenForWork!</p>
           <div className="flex gap-x-4 mt-4">
             <a href="https://github.com/r8now">
-              <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+              <FaGithubSquare className="h-16 w-16 text-slate-500 hover:text-black duration-300" />
             </a>
             <a href="https://www.linkedin.com/in/hosein-moustafa-4b8793184">
-              <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+              <FaLinkedin className="h-16 w-16 text-blue-500 hover:text-black duration-300" />
             </a>
             
           </div>
