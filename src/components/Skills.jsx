@@ -21,7 +21,7 @@ const full = show ? skills : skills.slice(0, 4);
         className="pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[1rem] font-semibold leading-5 text-white hover:bg-indigo-500"
         onClick={() => setShow((prev) => !prev)}
       >
-        {show ? "Show less" : "Show more"}
+        {show ? "Show less " : "Show more skills"}
       </button>
     </section>
   );

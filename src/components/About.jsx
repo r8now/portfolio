@@ -7,12 +7,17 @@ const About = () => {
       <div className="align-element grid md:grid-cols-2 items-center gap-16">
         <img src={aboutSvg} alt="aboutSvg" className="w-full h-64" />
         <article>
-          <SectionTitle text="code and coffee" />
-          <p className="text-slate-600 mt-8 leading-loose">
+          <SectionTitle text="code &#x2328;  and coffee &#x2615;" />
+          <p className="text-slate-600 mt-8 text-lg leading-loose">
             Junior frontend developer with some backend knowledge. 34 years old,
             born and raised in Sweden. I spend my free time either working out
-            and helping others as a personal trainer, cherishing moments with my
-            family, or going on motorcycle rides during the weekends. I really enjoy learning new things and to code as much as i can so that i can become a better developer.
+            and helping others as a personal trainer{" "}
+            <span className="text-2xl">&#x1F4AA;</span> , cherishing moments
+            with my family, or going on motorcycle{" "}
+            <span className="text-2xl">&#x1F3CD;</span> rides during the
+            weekends. I really enjoy learning new things and to code as much as
+            i can so that i can become a better developer. I am also very active
+            on discord and facebook helping beginners with their code.
           </p>
         </article>
       </div>
