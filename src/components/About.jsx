@@ -1,4 +1,3 @@
-
 import CoffeGif from "./CoffeGif";
 
 import SectionTitle from "./SectionTitle";
