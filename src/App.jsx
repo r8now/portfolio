@@ -16,29 +16,37 @@ const sectionVariants = {
 const App = () => {
   // Separate animation controls for each section
   const controlsSkills = useAnimation();
-  const [refSkills, inViewSkills] = useInView();
+  const [refSkills, inViewSkills] = useInView({ triggerOnce: false });
 
   const controlsAbout = useAnimation();
-  const [refAbout, inViewAbout] = useInView();
+  const [refAbout, inViewAbout] = useInView({ triggerOnce: false });
 
   const controlsProjects = useAnimation();
-  const [refProjects, inViewProjects] = useInView();
+  const [refProjects, inViewProjects] = useInView({ triggerOnce: false });
 
   const controlsContactForm = useAnimation();
-  const [refContactForm, inViewContactForm] = useInView();
+  const [refContactForm, inViewContactForm] = useInView({ triggerOnce: false });
 
   useEffect(() => {
     if (inViewSkills) {
       controlsSkills.start("visible");
+    } else {
+      controlsSkills.start("hidden");
     }
     if (inViewAbout) {
       controlsAbout.start("visible");
+    } else {
+      controlsAbout.start("hidden");
     }
     if (inViewProjects) {
       controlsProjects.start("visible");
+    } else {
+      controlsProjects.start("hidden");
     }
     if (inViewContactForm) {
       controlsContactForm.start("visible");
+    } else {
+      controlsContactForm.start("hidden");
     }
   }, [
     controlsSkills,
@@ -60,7 +68,7 @@ const App = () => {
         animate={controlsSkills}
         initial="hidden"
         variants={sectionVariants}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1.2 }}
       >
         <Skills />
       </motion.div>
@@ -69,7 +77,7 @@ const App = () => {
         animate={controlsAbout}
         initial="hidden"
         variants={sectionVariants}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1.2 }}
       >
         <About />
       </motion.div>
@@ -78,7 +86,7 @@ const App = () => {
         animate={controlsProjects}
         initial="hidden"
         variants={sectionVariants}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1.2 }}
       >
         <Projects />
       </motion.div>
@@ -87,7 +95,7 @@ const App = () => {
         animate={controlsContactForm}
         initial="hidden"
         variants={sectionVariants}
-        transition={{ duration: 2 }}
+        transition={{ duration: 1.2 }}
       >
         <ContactForm />
       </motion.div>
