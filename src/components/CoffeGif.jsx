@@ -1,4 +1,4 @@
-import myGif from "./assets/coffe.gif";
+import myGif from "../assets/coffe.gif";
 
 const CoffeGif = () => {
   return (
