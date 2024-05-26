@@ -15,7 +15,7 @@ const ContactForm = () => {
         "service_fg2gv1f",
         "template_jt6kemg",
         form.current,
-        "kL6aukFM7IoCaT-lB"
+        "_K74e1F1M9JBpxgWZ"
       )
       .then(
         (result) => {
